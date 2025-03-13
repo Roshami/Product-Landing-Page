@@ -1,0 +1,147 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+#header-img {
+    width: 50px;
+}
+
+#nav-bar {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    font-weight:bolder;
+    text-decoration: underline;
+    animation-duration: 3s;
+    animation-name: blink;
+    animation-iteration-count: infinite;
+}
+
+@keyframes blink {
+    0% {
+        color: white;
+    }
+    50% {
+        color: rgb(1, 39, 9);
+    }
+}
+
+#hero {
+    padding-top: 70px;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+}
+
+.cta-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover{
+    background-color: #08300a;
+}
+
+#features {
+    text-align: justify;
+    padding: 50px 50px;
+    margin: 0 auto;
+    background-color: lightgreen;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#video-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#pricing {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#form-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#email {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#submit {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.social-media a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+
+/* Media Query */
+@media (max-width: 600px) {
+    #nav-bar {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
