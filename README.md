@@ -1,6 +1,8 @@
 # Eco-Friendly Water Bottle - Product Landing Page
 
-This is a simple **Product Landing Page** for an **Eco-Friendly Water Bottle**, designed using **HTML and CSS**. The webpage highlights the features, pricing, and a promotional video of the product.
+This is a **Product Landing Page** for an **Eco-Friendly Water Bottle**, designed using **HTML and CSS**. The webpage highlights the features, pricing, and a promotional video of the product.
+
+✅ This project was created as part of a **FreeCodeCamp certification project**.
 
 ## Features
 - Keeps drinks hot for **12 hours**
