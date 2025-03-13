@@ -31,4 +31,4 @@ This landing page includes:
 ## How to Use
 1. Clone this repository:
    ```sh
-   git clone https://github.com/YourGitHubUsername/YourRepositoryName.git
+   git clone https://github.com/Roshami/Product-Landing-Page.git
